@@ -110,15 +110,16 @@ var evenCount: number = 0;
 // var result = factorial(5)
 // console.log("factorial of number ",result);
 
-let array:number []= [-5,2,3,4,5,]
-console.log(`Array befor removing${array}`);
-function removingNegativeNumber(array:number[]) {
-   let i = 0
-    if (i<array.length) {
-        i++
-    }
-}
-
+// let array:number []= [-5,2,3,4,5,]
+// console.log(`Array befor removing${array}`);
+// function removingNegativeNumber(array:number[]) {
+//    let i = 0
+//     if (i<array.length) {
+//         i++
+//     }
+// }
+// just check
+console.log("Hey");
 
 
 
