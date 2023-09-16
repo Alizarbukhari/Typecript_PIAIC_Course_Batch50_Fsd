@@ -1,17 +1,13 @@
 //Q1. Install Node.js, TypeScript and VS Code on your computer.
 
 //Ans: Already Installed
-
-
 //Q 2. Personal Message: Store a person’s name in a variable, and print a message to that person. Your message should be simple, such as, “Hello Eric,
 ///would you like to learn some Python today?”
-
 var userName:string = "PIAIC";
 var massage:string = "Hello Class welcome to all of you in AI World"
 console.log(userName,massage);
 //Q 03. Name Cases: Store a person’s name in a variable, and then print that person’s name in lowercase, uppercase, and titlecase.
 var _name = "Ali Zar";
-
 console.log("Lower case",_name.toLowerCase());
 console.log("Upper case",_name.toUpperCase());
 console.log("Title case ",_name.toString());
@@ -29,12 +25,10 @@ var message:string = `"I insist you to strive. Work, Work and only work for sati
 console.log(`${famous_person},${message}`);
 //Q 06. Stripping Names: Store a person’s name, and include some whitespace characters at the beginning and end of the name. Make sure you use each
 //character combination, "\t" and "\n", at least once. Print the name once, so the whitespace around the name is displayed. Then print the name after striping the white spaces.
-
 var personeName:string = "\t   Ali Zar   \n"; 
 console.log("Name with white spaces",personeName);
 var strippingName:string = personeName.trim();
 console.log("stripper Name",strippingName);
-
 //NQ 07. umber Eight: Write addition, subtraction, multiplication, and division operations that each result in the number 8. Be sure to enclose your operations in print statements to see the results. 
 var a:number=1;
 var b:number=2;
@@ -64,9 +58,7 @@ const num= 4
 for (let index = 0; index < num; index++) {
   
   console.log(`             ${3+5}                     `);
-  console.log("--------------------------------------");
-  
-    
+  console.log("--------------------------------------");    
 }
 // Q 09. Favorite Number: Store your favorite number in a variable. Then, using that variable,
 // create a message that reveals your favorite number. Print that message.
@@ -165,14 +157,10 @@ for (let index = 0; index < guest.length; index++) {
     
 }
 //Q. 17 Shrinking Guest List: You just found out that your new dinner table won’t arrive in time for the dinner, and you have space for only two guests.
-
 // • Start with your program from Exercise 16. Add a new line that prints a message saying that you can invite only two people for dinner.
-
 // • Remove guests from your list one at a time until only two names remain in your list. Each time you pop a name from your list, print
 // a message to that person letting them know you’re sorry you can’t invite them to dinner.
-
 // • Print a message to each of the two people still on your list, letting them know they’re still invited.
-
 // • Remove the last two names from your list, so you have an empty list. Print your list to make sure you actually have an empty list at the end
 // of your program.
 //shrink list 
@@ -188,38 +176,26 @@ while (guest.length> 2) {
   console.log(`sory ${removeGuests} you are not invited on dinner`);  
 }
 console.log(guest);
-
 //Print a message to each of the two people  still on your list.
 guest.forEach((guest)=>{
   console.log(guest,"you are invited at dinner");
   
 })
- 
 //Remove the last two names from your list,
 guest.pop();
 guest.pop();
  console.log("empty list at the end of your program",guest);
  //Q .18 Seeing the World: Think of at least five places in the world you’d like to visit.
 // • Store the locations in a array. Make sure the array is not in alphabetical order.
-
 // • Print your array in its original order.
-
 // • Print your array in alphabetical order without modifying the actual list.
-
 // • Show that your array is still in its original order by printing it.
-
 // • Print your array in reverse alphabetical order without changing the order of the original list.
-
 // • Show that your array is still in its original order by printing it again.
-
 // • Reverse the order of your list. Print the array to show that its order has changed.
-
 // • Reverse the order of your list again. Print the list to show it’s back to its original order.
-
 // • Sort your array so it’s stored in alphabetical order. Print the array to show that its order has been changed.
-
 // • Sort to change your array so it’s stored in reverse alphabetical order. Print the list to show that its order has changed.
-
 var visitPlace = ["Makha","Madina","Najaf","Karbala","Sham"]
  // • Print your array in its original order.
 console.log(visitPlace);
@@ -267,33 +243,22 @@ console.log(country,country2);
 // try to make one happen. Change an index in one of your programs to produce an index error. 
 //Make sure you correct the error before closing the program.
 //Q .23 Conditional Tests: Write a series of conditional tests. Print a statement describing each test and your prediction for the results of each test. Your code should look something like this:
-
 //let car = 'subaru';
-
 //console.log("Is car == 'subaru'? I predict True.")
-
 //console.log(car == 'subaru')
-
 //• Look closely at your results, and make sure you understand why each line evaluates to True or False.
-
 //• Create at least 10 tests. Have at least 5 tests evaluate to True and another 5 tests evaluate to False.
 //Q .24 More Conditional Tests: You don’t have to limit the number of tests you create to 10. If you want to try more comparisons, write more tests. Have at least one True and one False result for each of the following:
 // • Tests for equality and inequality with strings
-
 // • Tests using the lower case function
-
 // • Numerical tests involving equality and inequality, greater than and less than, greater than or equal to, and less than or equal to
-
 // • Tests using "and" and "or" operators
-
 // • Test whether an item is in a array
-
 //• Test whether an item is not in a array
 //Q .25 Alien Colors #1: Imagine an alien was just shot down in a game. Create a variable called alien_color and
 // assign it a value of 'green', 'yellow', or 'red'.
 //Write an if statement to test whether the alien’s color is green. If it is, print a message that the player just earned
 // 5 points.
-
 //• Write one version of this program that passes the if test and another that fails. (The version that fails will have no
 //   output.)
 let alien_color = ["red","Green","yellow"];
@@ -315,10 +280,8 @@ if (result.includes("pass")) {
 //• If the alien’s color isn’t green, print a statement that the player just earned 10 points.
 
 //• Write one version of this program that runs the if block and another that runs the else block
-
 if (alien_color.includes("Green")) {
-  console.log("player just earned 5 points for shooting the alien");
-  
+  console.log("player just earned 5 points for shooting the alien");  
   }
    
     else{
@@ -327,11 +290,8 @@ console.log("Player just earn 10 points");
   }
 //Q . 27 Alien Colors #3: Turn your if-else chain from Exercise 5-4 into an if-else chain.
 //• If the alien is green, print a message that the player earned 5 points.
-
-///• If the alien is yellow, print a message that the player earned 10 points.
-
+//• If the alien is yellow, print a message that the player earned 10 points.
 //• If the alien is red, print a message that the player earned 15 points.
-
 //• Write three versions of this program, making sure each message is printed for the appropriate color alien. 
 
 if (alien_color.includes("Green")) {
@@ -433,11 +393,8 @@ for (let index = 0; index < userNames.length; index++)
   }
 // //Q. 32 Checking Usernames: Do the following to create a program that simulates how websites ensure that everyone has a unique username.
 // • Make a list of five or more usernames called current_users.
-
 // • Make another list of five usernames called new_users. Make sure one or two of the new usernames are also in the current_users list.
-
 // • Loop through the new_users list to see if each new username has already been used. If it has, print a message that the person will need to enter a new username. If a username has not been used, print a message saying that the username is available.
-
 // • Make sure your comparison is case insensitive. If 'John' has been used, 'JOHN' should not be accepted.
 let current_Users = ["Ali","Raza","Adeel","Bilal","Mohsin"]
 let new_Users = ["karam Elahi","Ahmad","Adeel","Ali","Zeeshan"]
